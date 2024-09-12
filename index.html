@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site</title>
+  <style>
+    *{margin:0;padding: 0;}
+    header{
+      background-color: rgb(0, 0, 0);
+      height: 207px;width:100%;
+      display: flex;
+      justify-content:center;
+      align-items:center;}
+
+    h1 {color:rgb(226, 226, 226);font-size: 55px;}
+    nav{display: flex; align-items: center; justify-content: center; background-color:rgb(190, 190, 190);
+      height:51px;}
+    ul li {
+      display:inline;
+      margin: 37px;
+    }
+a {color: black;
+    font-weight:bold;
+   text-decoration: none;
+  }
+
+
+   
+   a:hover{
+      font-size: 22px;
+      color: aqua;
+      transition:1s;
+   }
+
+    
+      #conteudo{
+        display: flex;
+        flex-direction:row;
+        padding:40px;
+      }
+      main{
+        width: 80%;
+      }
+      main h4{
+        font-size: 24px;
+        margin-left: 16px;
+      }
+    aside{
+     width:20% ; 
+     margin-left:  48px;
+     padding: 16px;
+    }
+    section{
+      display:flex;
+      flex-direction: column;
+      width:100%;
+      border:1px solid #ccc;
+      border-radius:8;
+      padding:16px;
+      margin:16px;
+      
+    }
+    section h3{
+      font: size 22px;
+      font-weight:900;
+      margin-bottom:10px;
+    }
+    section img{
+      width: 70%;
+    }
+    section span{
+      margin: 15px 0 10px 0;
+      font-weight: bold;
+
+    }
+    aside section img {
+      width: 100%;
+    }
+    aside h4{
+      margin-left: 16px;
+    }
+    footer{
+      background-color: #d9d9d9;
+      height: 268PX;
+    }
+    #topo{
+      width: 75 px;
+      height: 75px;
+      background-color: #3250E5;
+      position:fixed;
+      right: 22px;
+      bottom: 20px;
+      border-radius: 50%;
+    }
+    footer{
+      display:flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding-bottom: 15px 0;
+    }
+    img{
+      mix-blend-mode: multiply;
+    }
+  </style>
+</head>
+
+<body>
+  <header id ="header">
+  <h1>Desenvolvimento Web</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">cursos</a></li>
+      <li><a href="#">inscrições</a></li>
+      <li><a href="#">sobre</a></li>
+    </ul>
+  </nav>
+  <div id="conteudo">
+    <main>
+      <h4>Desenvolvimento Web</h4>
+      <section>
+        <h3>Construindo uma aplicação com PHP e MySQL</h3>
+        <img width src="images/Aula_html.jpg" alt="Curso PHP e MySQL">
+        <span>Sobre o curso</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum laboriosam deserunt voluptatibus corporis molestias nisi nihil omnis enim nobis, optio ut quae vero alias placeat soluta consequatur quas similique error.</p>
+      </section>
+      
+      <section>
+        <h3>Curso de HTML</h3>
+        <img width src="images/Aula_html.jpg" alt="Curso PHP e MySQL">
+        <span>Sobre o curso</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum laboriosam deserunt voluptatibus corporis molestias nisi nihil omnis enim nobis, optio ut quae vero alias placeat soluta consequatur quas similique error.</p>
+      </section>
+    </main>
+    <aside>
+      <h4>Posts em destaques</h4>
+      <section>
+        <h3>Construindo seu primeiro app com react native</h3>
+        <img width="100%" src="images/native.png" alt="Curso PHP e MySQL">
+        <span>Sobre o curso</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum laboriosam deserunt voluptatibus corporis molestias nisi nihil omnis enim nobis, optio ut quae vero alias placeat soluta consequatur quas similique error.</p>
+        <span>Leia mais</span>
+      </section>
+      
+      <h4>últimas Notícias</h4>
+      <section>
+        <h3>Alunos da EPGAL são destaque na OBI</h3>
+        <img width="100%  " src="images/download.jpeg " alt="Curso PHP e MySQL">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum laboriosam deserunt voluptatibus corporis molestias nisi nihil omnis enim nobis, optio ut quae vero alias placeat soluta consequatur quas similique error.</p> 
+        <span>Leia mais</span>
+      </section>
+    </aside>
+  </div>
+    <footer>
+      <div></div>
+       2024-Site desenvolvido por <a href="#"> Ricardo Rodrigues </a></div>
+       <div>
+          <img width="25% "src="./images/redes-sociais-png.png" alt="">
+    </footer>
+    <div id="topo"></div>
+    <a href=""
+  
+  
